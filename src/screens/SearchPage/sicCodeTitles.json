@@ -1,0 +1,87 @@
+{
+    "Section A": {
+      "Title": "Agriculture, Forestry and Fishing",
+      "Range": "01110-0990"
+    },
+    "Section B": {
+      "Title": "Mining and Quarrying",
+      "Range": "05101-09909"
+    },
+    "Section C": {
+      "Title": "Manufacturing",
+      "Range": "10110-33200"
+    },
+    "Section D": {
+      "Title": "Electricity, Gas, Steam and Air Conditioning Supply",
+      "Range": "35110-35300"
+    },
+    "Section E": {
+      "Title": "Water Supply, Sewerage, Waste Management and Remediation Activities",
+      "Range": "36000-39000"
+    },
+    "Section F": {
+      "Title": "Construction",
+      "Range": "41100-43999"
+    },
+    "Section G": {
+      "Title": "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+      "Range": "45110-47789"
+    },
+    "Section H": {
+      "Title": "Transportation and Storage",
+      "Range": "49100-53202"
+    },
+    "Section I": {
+      "Title": "Accommodation and Food Service Activities",
+      "Range": "55100-56302"
+    },
+    "Section J": {
+      "Title": "Information and Communication",
+      "Range": "58110-63990"
+    },
+    "Section K": {
+      "Title": "Financial and Insurance Activities",
+      "Range": "64110-66290"
+    },
+    "Section L": {
+      "Title": "Real Estate Activities",
+      "Range": "68100-68320"
+    },
+    "Section M": {
+      "Title": "Professional, Scientific and Technical Activities",
+      "Range": "69101-75000"
+    },
+    "Section N": {
+      "Title": "Administrative and Support Service Activities",
+      "Range": "77110-82990"
+    },
+    "Section O": {
+      "Title": "Public Administration and Defence; Compulsory Social Security",
+      "Range": "84110-84250"
+    },
+    "Section P": {
+      "Title": "Education",
+      "Range": "85100-85422"
+    },
+    "Section Q": {
+      "Title": "Human Health and Social Work Activities",
+      "Range": "86101-88990"
+    },
+    "Section R": {
+      "Title": "Arts, Entertainment and Recreation",
+      "Range": "90010-93290"
+    },
+    "Section S": {
+      "Title": "Other Service Activities",
+      "Range": "94110-96090"
+    },
+    "Section T": {
+      "Title": "Activities of Households as Employers; Undifferentiated Goods- and Services-Producing Activities of Households for Own Use",
+      "Range": "97000-98200"
+    },
+    "Section U": {
+      "Title": "Activities of Extraterritorial Organizations and Bodies",
+      "Range": "99001-9900"
+    }
+  }
+  

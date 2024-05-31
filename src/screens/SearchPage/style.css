@@ -1,0 +1,642 @@
+@media screen and (max-width: 768px) {
+  .search-page .logo-search-bar {
+    width: 100%;
+    left: 10px;
+    gap: 10px;
+  }
+
+  .search-page .navigation {
+    right: 10px;
+    gap: 20px;
+  }
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-self: center;
+  align-items: center;
+}
+
+.search-page {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow: auto;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  flex-direction: column;
+}
+
+.search-page .header {
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 30px #0000000f;
+  display: flex;
+  height: 106px;
+  justify-content: left;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.search-page .logo-search-bar {
+  align-items: center;
+  display: flex;
+  gap: 26px;
+  position: relative;
+  width: 754px;
+  left: 50px;
+}
+
+.search-page .navigation {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  position: absolute; /* Change this from relative to absolute */
+  right: 100px; /* Add this */
+  width: 324px;
+}
+
+.search-page .search-bar {
+  height: 62px;
+  position: relative;
+  display: inline-block;
+  width: 606px;
+  padding-left: 50;
+}
+
+
+.clear-button {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-bottom: 4px;
+}
+
+.search-page .input {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d3d3d3;
+  height: 62px;
+  width: 500px;
+  border-radius: 8px 8px 8px 8px;
+  padding-left: 10px;
+}
+
+
+.content {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+
+.search-page .sponsors {
+  margin-top:45vh;
+  align-items: center;
+  flex-direction: column;
+  gap: 11px;
+  padding: 10px;
+  margin-bottom: 20px;
+  min-height: auto;
+}
+
+.search-page .map {
+  height: 68vh;
+  left: 93vh;
+  margin-top: 20vh;
+  width: 125vh;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden; /* Add this line */
+  position: fixed;
+
+}
+
+.search-page .sponsor {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px #00000026;
+  display: flex;
+  gap: 11px;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 80vh;
+  height: 35vh;
+  margin-left: 30px;
+}
+
+.search-page .sponsor .logo {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.search-page .sponsor .logo-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-page .sponsor .right-column {
+  flex: 1;
+  text-align: left;
+
+}
+
+.search-page .sponsor .sponsor-name {
+  text-align: left;
+  color: #292d32;
+  font-family: "Gilroy-Light", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.emoji {
+  font-size: 30px; /* Adjust as needed */
+  margin-top: 10px; /* Push the emoji down by 10px */
+}
+
+.industryTitle {
+  /* Add your CSS properties here. For example: */
+  font-size: 12px;
+  text-align: left;
+  padding-top: 5px;
+  color: #292d32;
+  font-family: Gilroy;
+  font-weight: 100;
+  font-style: italic; /* Add this line */
+}
+
+.search-page .sponsor .city,
+.search-page .sponsor .type {
+  font-size: 1.2em;
+  text-align: left;
+  padding-top: 5px;
+  color: #292d32;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 0;
+}
+
+
+.pagination {
+  display: flex;
+  margin: 30px 0;
+  position:fixed;
+  left: 125vh;
+}
+
+.pagination a {
+  margin: 0 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: "Gilroy-Light", Helvetica;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.pagination .page-link.active {
+  background-color: #292D32;
+  color: #fff;
+}
+
+
+
+
+.search-page .profile {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 14px;
+  padding: 10px;
+  position: relative;
+}
+
+
+.search-page .information {
+  height: 24px;
+  position: relative;
+  width: 247px;
+}
+
+.search-page .size-of-sponsor {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 20px;
+  left: 88px;
+  position: absolute;
+  top: 4px;
+}
+
+.search-page .frame {
+  align-items: flex-start;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: 105px;
+}
+
+
+
+.search-page .text-wrapper {
+  color: #292d32;
+  font-family: "Gilroy-Light", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  height: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  position: relative;
+  white-space: nowrap;
+  width: 111px;
+}
+
+.search-page .social-media-links {
+  height: 34px;
+  position: relative;
+  width: 247px;
+}
+
+
+.search-page .map-view {
+  background-image: url(../../../static/img/map.png);
+  background-size: 100% 100%;
+  height: 858px;
+  left: 626px;
+  position: absolute;
+  top: 136px;
+  width: 710px;
+}
+
+
+.search-page .map-pin {
+  height: 37px;
+  left: 501px;
+  position: absolute;
+  top: 521px;
+  width: 52px;
+}
+
+.search-page .overlap-group {
+  background-image: url(../../../static/img/background.svg);
+  background-size: 100% 100%;
+  height: 41px;
+  left: -8px;
+  position: relative;
+  width: 67px;
+}
+
+.search-page .text-wrapper-2 {
+  color: #3e4958;
+  font-family: "Gilroy-ExtraBold", Helvetica;
+  font-size: 12px;
+  font-weight: 800;
+  height: 13px;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: 16.3px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 43px;
+}
+
+.search-page .selected-sponsor {
+  height: 149px;
+  left: 153px;
+  position: absolute;
+  top: 261px;
+  width: 154px;
+  z-index: 2;
+}
+
+.search-page .overlap {
+  background-image: url(../../../static/img/background-1.svg);
+  background-size: 100% 100%;
+  height: 179px;
+  left: -15px;
+  position: relative;
+  top: -11px;
+  width: 184px;
+}
+
+.search-page .profile-2 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px #00000012;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 22px;
+  position: relative;
+  top: 24px;
+}
+
+.search-page .img {
+  align-self: stretch;
+  height: 54.94px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.search-page .frame-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+  padding: 0px 0px 10px 20px;
+  position: relative;
+  width: 134px;
+}
+
+.search-page .div-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 74px;
+  position: relative;
+}
+
+.search-page .text-wrapper-3 {
+  color: #3e4958;
+  font-family: "Gilroy-ExtraBold", Helvetica;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 95px;
+}
+
+.search-page .filter-system {
+  left: 30px;
+  position: relative;
+  z-index: 1;
+  top: -170px;
+  width: 550px;
+}
+
+.search-page .filters {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 89px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-page .location {
+  align-items: center;
+  background-color: #dbdbfd80;
+  border-radius: 30px;
+  display: inline-flex;
+  justify-content: center;
+  left: 0;
+  padding: 10px 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.search-page .all-locations {
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #292D32;
+  color: white;
+  display: flex;
+  padding-bottom: 3px;
+  margin-left: 10px;
+}
+
+.search-page .all-locations:hover {
+  background-color: #a1b0c1;
+  color: #292D32;
+  cursor: pointer;
+}
+
+.search-page .text-wrapper-4 {
+  color: #3e4958;
+  font-family: "Gilroy-ExtraBold", Helvetica;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -0.5px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.search-page .industry {
+  align-items: center;
+  border: 0.5px solid;
+  border-color: #3e4958;
+  border-radius: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+  width: 96px;
+  margin-left: auto;
+}
+
+
+.search-page .text-wrapper-5 {
+  color: #3e4958;
+  font-family: "Gilroy-Light", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -0.5px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.search-page .size-of-sponsor-2 {
+  align-items: center;
+  border: 0.5px solid;
+  border-color: #3e4958;
+  border-radius: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  left: 236px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  width: 98px;
+}
+
+.search-page .filter-icon {
+  height: 24px;
+  left: 522px;
+  position: absolute;
+  top: 10px;
+  width: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.search-page .filter-icon:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+
+.search-page .lightbox {
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-height: 500px;
+  overflow-y: auto;
+  width: 80vw;
+  max-width: 800px;
+}
+
+.search-page .sponsors-in-city {
+  color: #3e4958;
+  font-family: Gilroy;
+  font-size: 36px;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  position: absolute;
+  top: 31px;
+  white-space: nowrap;
+}
+
+.search-page .number-of-sponsors {
+  color: #3e4958;
+  font-family: "Gilroy-Light", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+
+
+.search-page .logo-2 {
+  height: 51px;
+  position: relative;
+  width: 174.5px;
+}
+
+.search-page .search-selected {
+  border-radius: 8px;
+  height: 62px;
+  margin-right: -72.5px;
+  position: relative;
+  width: 626px;
+}
+
+
+
+
+
+
+
+.search-page .buttons {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.search-page .text-wrapper-6 {
+  color: #3e4958;
+  font-family: "Gilroy-ExtraBold", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 76px;
+}
+
+.search-page .text-wrapper-7 {
+  color: #3e4958;
+  font-family: "Gilroy-ExtraBold", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: 61px;
+}
+
+.footer {
+  position: relative;
+  margin-bottom: 20px;
+  left: 30px;
+  width: 100%;
+  color: black;
+  padding: 10px 0;
+  font-family: "Gilroy-ExtraBold", Helvetica;
+}
+
+.footer-icon {
+  padding-right: 10px;
+}
